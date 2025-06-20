@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx01
   annotations:
-    nginx/port: 8080
+    nginx/port: "8080"
 spec:
   containers:
   - name: nginx
